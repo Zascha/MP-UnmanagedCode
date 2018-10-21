@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MP.UnmanagedCode.PMApiMediator")]
+[assembly: AssemblyTitle("UnmanagedCode.COM")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("EPAM Systems")]
-[assembly: AssemblyProduct("MP.UnmanagedCode.PMApiMediator")]
+[assembly: AssemblyProduct("")]
 [assembly: AssemblyCopyright("Copyright © EPAM Systems 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(true)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c73092d5-e809-4a79-a92a-99d4fad1763b")]
+[assembly: Guid("16067AD3-8624-4B5B-B6A1-06A848CC12ED")]
 
 // Version information for an assembly consists of the following four values:
 //

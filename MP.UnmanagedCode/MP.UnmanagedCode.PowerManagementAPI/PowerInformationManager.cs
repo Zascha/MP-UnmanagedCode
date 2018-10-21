@@ -104,7 +104,7 @@ namespace MP.UnmanagedCode.PowerManagementAPI
 
         private double GetResultTimeInMilliseconds(ulong interruptTimeCount)
         {
-            return interruptTimeCount / 10000D;
+            return interruptTimeCount / 1000D;
         }
 
         #endregion

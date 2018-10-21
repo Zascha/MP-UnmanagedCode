@@ -1,28 +1,29 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 
 namespace MP.UnmanagedCode.PowerManagementAPI.Models
 {
     public struct SystemBatteryState
     {
-        public bool AcOnLine { get; internal set; }
-        public bool BatteryPresent { get; internal set; }
-        public bool Charging { get; internal set; }
-        public bool Discharging { get; internal set; }
-        public bool Spare { get; internal set; }
-        public byte Tag { get; internal set; }
-        public uint MaxCapacity { get; internal set; }
-        public uint RemainingCapacity { get; internal set; }
-        public uint Rate { get; internal set; }
-        public uint EstimatedTime { get; internal set; }
-        public uint DefaultAlert1 { get; internal set; }
-        public uint DefaultAlert2 { get; internal set; }
+        public bool AcOnLine;
+        public bool BatteryPresent;
+        public bool Charging;
+        public bool Discharging;
+        public bool Spare;
+        public byte Tag;
+        public uint MaxCapacity;
+        public uint RemainingCapacity;
+        public uint Rate;
+        public uint EstimatedTime;
+        public uint DefaultAlert1;
+        public uint DefaultAlert2;
     }
 
     public struct SystemPowerInformation
     {
-        public ulong MaxIdlenessAllowed { get; internal set; }
-        public ulong Idleness { get; internal set; }
-        public ulong TimeRemaining { get; internal set; }
-        public ulong CoolingMode { get; internal set; }
+        public ulong MaxIdlenessAllowed;
+        public ulong Idleness;
+        public ulong TimeRemaining;
+        public ulong CoolingMode;
     }
 }

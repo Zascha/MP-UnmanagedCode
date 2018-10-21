@@ -5,6 +5,7 @@ namespace MP.UnmanagedCode.PowerManagementAPI.ComInterfaces
 {
     [ComVisible(true)]
     [Guid("BBC61B74-27F4-43B0-982C-3D67846B7AE9")]
+    [InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]
     public interface IPowerInformationManager
     {
         double LastSleepTime { get; }
